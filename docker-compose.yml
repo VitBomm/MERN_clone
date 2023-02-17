@@ -15,10 +15,10 @@ services:
     networks:
       - backend
   
-  bezkoder-api:
+  uit-api:
     depends_on:
       - mongodb
-    build: ./bezkoder-api
+    build: ./uit-api
     restart: unless-stopped
     env_file: ./.env
     ports:
@@ -34,11 +34,11 @@ services:
       - backend
       - frontend
 
-  bezkoder-ui:
+  uit-ui:
     depends_on:
-      - bezkoder-api
+      - uit-api
     build:
-      context: ./bezkoder-ui
+      context: ./uit-ui
       args:
         - REACT_APP_API_BASE_URL=$CLIENT_API_BASE_URL
     ports:

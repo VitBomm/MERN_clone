@@ -27,12 +27,12 @@ docker-compose down --rmi all
 ```
 
 For more detail, please visit:
-> [Docker Compose MERN Stack with Nginx example](https://www.bezkoder.com/docker-mern/)
+> [Docker Compose MERN Stack with Nginx example](https://www.uit.com/docker-mern/)
 
 Related Posts:
-> [React + Node.js + Express + MongoDB example](https://bezkoder.com/react-node-express-mongodb-mern-stack/)
+> [React + Node.js + Express + MongoDB example](https://uit.com/react-node-express-mongodb-mern-stack/)
 
-> [React + Node.js Express + MongoDB: User Authentication with JWT example](https://www.bezkoder.com/react-node-mongodb-auth/)
+> [React + Node.js Express + MongoDB: User Authentication with JWT example](https://www.uit.com/react-node-mongodb-auth/)
 
 Integration (run back-end & front-end on same server/port)
-> [Integrate React with Node.js Restful Services](https://bezkoder.com/integrate-react-express-same-server-port/)
+> [Integrate React with Node.js Restful Services](https://uit.com/integrate-react-express-same-server-port/)
